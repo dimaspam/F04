@@ -3,6 +3,40 @@
   box-sizing: border-box;
 }
 
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url("../image/laut.png");
+    background-size: cover;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair-Display',
+ serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #fff;
+}
+
+
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -34,6 +68,7 @@ footer p {
   float: left;
 }
 
+
 @media (max-width: 670px) {
   footer {
     text-align: center;
@@ -42,3 +77,4 @@ footer p {
     width: 100%;
     padding: 0;
 }
+
