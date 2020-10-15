@@ -13,15 +13,56 @@ li {
 a {
   text-decoration: none;
 }
+
 .container {
-  max-width: 1170px;
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
   width: 100%;
+  background-color: rgb(131, 164, 170);
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  display: inline-block;
+  margin-right: 3rem;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: beige;
+}
+
+a:hover {
+  color: coral;
 }
 
 .text-center {
   padding: 180px 0 165px;
   margin-top: -70px;
-  background-image: url("laut.png");
+  background-image: url("laut.jpg");
   background-size: cover;
 }
 
@@ -48,6 +89,23 @@ a {
 .text-center .btn-get-started:hover {
   background-color: #ffaa69;
   color: #fff;
+}
+
+.content {
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content p {
+  text-align: justify;
+}
+.clear {
+  clear: left;
 }
 
 .heading h2 {
@@ -92,6 +150,9 @@ footer p {
 }
 
 @media (max-width: 670px) {
+  .content {
+    width: 100%;
+  }
   footer {
     text-align: center;
   }
