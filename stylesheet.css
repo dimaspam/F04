@@ -177,4 +177,7 @@ footer p {
   .btn {
     width: 100%;
   }
+  .header-right{
+        display: none;
+   }
 }
