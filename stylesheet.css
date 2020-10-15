@@ -1,0 +1,44 @@
+* {
+  /* padding di tarik dari garis terluar ke dalam */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+}
+
+footer {
+  padding: 20px 20px 10px 20px;
+}
+footer img {
+  width: 200px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 18px;
+  padding: 0px;
+}
+.foot-left {
+  float: left;
+}
+
+@media (max-width: 670px) {
+  footer {
+    text-align: center;
+  }
+  .foot-left {
+    width: 100%;
+    padding: 0;
+}
