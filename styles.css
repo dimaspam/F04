@@ -1,0 +1,42 @@
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(131, 164, 170);
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgb(131, 164, 170);
+}
+
+.header-right li {
+    display: inline-block;
+    margin-right: 3rem;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover {
+    color: coral;
+}
